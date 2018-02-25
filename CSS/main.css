@@ -1,0 +1,33 @@
+.hometitle{
+	color:black;
+	position:fixed;
+	height:100%;
+	padding-left:30px;
+	padding-top:10px;
+	z-index: 1000
+}
+
+.About-Contact{
+	position:absolute;
+	bottom:0px;
+}
+
+.img-responsive{
+	width: 100%;
+}
+
+
+.background-picture-height{
+	height: 365px;
+	overflow:hidden;
+	padding-right:0px;
+	padding-left: 0px;
+
+}
+
+.textbox {
+	color:white;
+	font-family: 'Hind', sans-serif;
+	background-color:grey;
+	padding-left: 50px;
+}
