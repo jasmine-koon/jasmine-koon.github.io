@@ -6,19 +6,30 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="CSS/main.css">
+	<script src="main.js">
+		
+	</script>
+
 
 </head>
 
 <body> Contact list
-	<form>
+	<form onsubmit="submitForm()">
 		First name<br>
-		<input type="text" name="firstname">
+
+		<input type="text" name="firstname" id="firstname-box">
 		<br>
 		Lastname<br>
-		<input type="text" name="lastname">
+		<input type="text" name="lastname" id="lastname-box">
+		<input type="submit">
+		<br>
+		Age<br>
+		<input type="number" name="age" id="age-box">
+		<input type="submit">
+
 	</form>
 
-	<button type="submit" form="nameform" value="Submit">Submit</button>	
+	<!-- <button type="submit" form="nameform" value="Submit">Submit</button>	 -->
 
 </body>
 
